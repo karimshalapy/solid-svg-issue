@@ -1,0 +1,20 @@
+{
+  "name": "my-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "solid-js": "^1.8.5",
+    "vite-plugin-solid-svg": "0.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0",
+    "vite-plugin-solid": "^2.8.0"
+  }
+}
